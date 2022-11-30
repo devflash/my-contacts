@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Contacts</h1>
+      <h1>My UCC Contacts</h1>
       <Add setContacts={setContacts}/>
       <Contacts contacts={contacts} setContacts={setContacts} />
     </div>
