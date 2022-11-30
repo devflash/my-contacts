@@ -1,0 +1,19 @@
+.contacts_wrapper {
+  padding: 20px;
+  margin-top: 10px;
+  width: 90%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.contact {
+  border-bottom: 1px solid #95a5a6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+}
