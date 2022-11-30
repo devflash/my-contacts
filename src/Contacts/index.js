@@ -18,7 +18,7 @@ const Contacts = ({ contacts, setContacts }) => {
       }
     };
     fetchContacts();
-  }, []);
+  }, [setContacts]);
   if (contacts.length === 0) {
     return (
       <div className="contacts_wrapper">
